@@ -1,0 +1,9 @@
+.p-tag {
+    color: green;
+    font: 48px;
+    font-weight: bold;
+}
+
+p {
+   color: tomato; 
+}

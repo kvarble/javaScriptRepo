@@ -1,0 +1,11 @@
+@color1: blue;
+@font: helvetica;
+.some-class{
+    color: @color1;
+    font-family: @font;
+}
+
+.bigger-class {
+    .some-class;
+    font-size: 80px;
+}
